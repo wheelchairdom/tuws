@@ -25,6 +25,58 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.italic {
+    font-family: $font-family-serif-display;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: -1em;
+}
+
+.essentials {
+    color: white;
+    padding-top: 1em;
+}
+
+.growth {
+    color: $color-accent-yellow;
+    padding-top: 1em;
+}
+
+.growth-bigger {
+    color: white;
+    padding-top: 1em;
+}
+
+.text1 {
+    color: white;
+}
+
+.text2 {
+    color: white;
+}
+
+.hide-color1 {
+    color: $color-text-headings;
+}
+
+.subhead-essentials {
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.subhead-growth {
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.subhead-growth-bigger {
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 /* BASE TYPOGRAPHY */
 body {
     font-weight: 400;
@@ -45,13 +97,19 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 .5em 0; }
 }
 
 .center-ellie {
+    padding-top: 1em;
     text-align: center;
     color: $color-accent;
 }
 
 .center-autumn {
+    padding-top: 1em;
     text-align: center;
     color: $color-accent-red;
+}
+
+.position {
+    text-align: center;
 }
 
 /* TYPOGRAPHIC SCALE */
