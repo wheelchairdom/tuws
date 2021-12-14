@@ -1,0 +1,115 @@
+/* BASE TEXT COLORS */
+body { color: $color-text-body; }
+
+/* BASE HEADINGS */
+h1, h2, h3, h4, h5, h6 { color: $color-text-headings; }
+
+/* BASE TEXT FONTS */
+body { font-family: $font-family-serif; }
+h2 { 
+    font-family: $font-family-serif-display;
+    font-weight: 500;
+    font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-family: $font-family-sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button-type {
+    font-family: $font-family-sans;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin: 0 auto;
+    color: white;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4; 
+}
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 .5em 0; }
+
+.hero-body {
+    font-size: larger;
+}
+
+.hero-body-bold {
+    font-family: $font-family-sans;
+    font-weight: 700;
+    font-size: larger;
+    line-height: 1.4;
+}
+
+.center-ellie {
+    text-align: center;
+    color: $color-accent;
+}
+
+.center-autumn {
+    text-align: center;
+    color: $color-accent-red;
+}
+
+/* TYPOGRAPHIC SCALE */
+h1 {
+    font-size: 3em;
+    line-height: 1;
+}
+h2 {
+    font-size: 2.25em;
+    line-height: 1.1;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+/* LIMIT NUMBER OF CHRACTERS PER LINE */
+p { max-width: 40em; }
+
+/* LINKS */
+a{
+    color: $color-link;
+    a:hover {
+        color: $color-link-dark;
+    }
+}
+
+/* HORIZONTAL LINE */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    margin: 3em 0;
+}
+
+/* TYPE SPECIMEN */
+.headline {
+    font-size: 4em;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    color: $color-accent;
+}
+
+.subheadline {
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.1;
+    color: $color-lightgrey;
+    margin: .25em 0;
+}
+
+/* SECTION HEADING */
+.section-heading {
+    font-size: 1em;
+    font-family: $font-family-serif-display;
+    font-weight: normal;
+    // text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 3em 0;
+}

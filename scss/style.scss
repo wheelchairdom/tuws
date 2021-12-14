@@ -1,0 +1,40 @@
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
+
+// VARIABLES
+$color-text-body: rgba(61,57,53,.8);
+$color-text-headings: rgba(61,57,53,1);
+$color-background: rgba(239,228,212,1);
+$color-accent: rgba(92,96,77,1);
+// $color-accent-dark: rgba(158,0,0,1);
+// $color-accent-light: rgba(255,202,202,1);
+$color-accent-dark: rgb(57, 59, 48);
+$color-accent-light: rgb(130, 136, 109);
+$color-link: rgba(92,96,77,1);
+$color-link-dark: rgb(57, 59, 48);
+$color-accent-red: rgba(255,105,97,1);
+$color-accent-yellow: rgba(255,253,209,1);
+
+$color-lightgrey: rgba(61,57,53,.5);
+
+$font-family-sans: 'english-grotesque', Helvetica, Arial, Helvetica, sans-serif;
+$font-family-serif-display: 'freight-display-pro', Georgia, 'Times New Roman', Times, serif;
+$font-family-serif: 'freight-text-pro', Georgia, 'Times New Roman', Times, serif;
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/helpers";
+@import "partials/buttons";
+@import "partials/media";
+@import "partials/layout";
+@import "partials/grid";
+@import "partials/structure";
+@import "partials/sitenav";
+@import "partials/animations";
+
